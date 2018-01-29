@@ -1,0 +1,132 @@
+.wrap{
+  width: 1366px;
+}
+
+.header{
+  max-width: 100%;
+  height: 200px;
+}
+
+.head1{
+  max-width: 100%;
+  height: 120px;
+  background-image: url("../img/top4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/*背景のみ少し暗く*/
+.head1:before{
+  background-color: rgba(0,0,0,0.2);
+	/* どの範囲に重ねるかを指定 */
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	content: ' ';
+}
+
+/*文字を透過させないために必要*/
+.box{
+  position: absolute;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 44px;
+}
+
+h1{
+  font-size: 36px;
+  color:white;
+  font-family: 'sans-serif';
+}
+
+.p1{
+  color:white;
+  align-self: auto;
+  font-size: 15px;
+}
+
+.head2{
+  max-width: 100%;
+  height: 80px;
+}
+
+.navi-list{
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.navi-item{
+  width: 25%;
+  list-style-type: circle;
+  list-style-position: inside;
+  text-align: center;
+}
+
+.title{
+  height: 139px;
+  display: flex;
+  align-items: center;
+  margin-left: 134px;
+
+  font-size: 30px;
+  color:#585858;
+}
+
+.title{
+  height: 139px;
+  display: flex;
+  align-items: center;
+  margin-left: 134px;
+
+  font-size: 30px;
+  color:#585858;
+}
+
+.line{
+  width: 450px;
+  height: 1px;
+  background: #585858;
+  margin-top: 21px;
+  position: absolute;
+}
+
+.h2{
+  margin-left: 17px;
+}
+
+.pp{
+  width: 350px;
+  margin-right: 190px;
+  margin-bottom: 50px;
+}
+
+.setumei{
+  text-decoration: underline;
+  font-size: 21px;
+  letter-spacing: 7px;
+  margin-bottom: 57px;
+
+}
+
+.syousai{
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.co-img{
+  border-radius: 13px;
+  width: 340px;
+  height: 225px;
+  margin-right: 190px;
+}

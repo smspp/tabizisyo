@@ -1,0 +1,148 @@
+.wrap{
+  width: 1366px;
+}
+
+.header{
+  max-width: 100%;
+  height: 200px;
+}
+
+.head1{
+  max-width: 100%;
+  height: 120px;
+  background-image: url("../img/top4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/*背景のみ少し暗く*/
+.head1:before{
+  background-color: rgba(0,0,0,0.2);
+	/* どの範囲に重ねるかを指定 */
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	content: ' ';
+}
+
+/*文字を透過させないために必要*/
+.box{
+  position: absolute;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 44px;
+}
+
+h1{
+  font-size: 36px;
+  color:white;
+  font-family: 'sans-serif';
+}
+
+.p1{
+  color:white;
+  align-self: auto;
+  font-size: 15px;
+}
+
+.head2{
+  max-width: 100%;
+  height: 80px;
+}
+
+.fixed{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	right: 0;
+  background-image: url("../img/top4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color:white;
+  font-weight: bold;
+}
+
+.fixed a{
+  color: white;
+  font-weight: bold;
+}
+
+.navi-list{
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.navi-item{
+  width: 25%;
+  list-style-type: circle;
+  list-style-position: inside;
+  text-align: center;
+}
+
+.title{
+  height: 139px;
+  display: flex;
+  align-items: center;
+  margin-left: 134px;
+
+  font-size: 30px;
+  color:#585858;
+}
+
+.line{
+  width: 325px;
+  height: 1px;
+  background: #585858;
+  margin-top: 21px;
+  position: absolute;
+}
+
+
+.h2{
+  margin-left: 17px;
+}
+
+.co-list{
+  display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.co-item{
+  width: 33.333%;
+  height: 290px;
+  border-radius: 6px;
+}
+
+.co-img{
+  border-radius: 13px;
+  width: 264px;
+  height: 149px;
+}
+
+.co-img:hover {
+  opacity: 0.8;
+}
+
+.co-img:active {
+  width: 230px;
+  height: 120px;
+  border-radius: 6px;
+  background-color: white;
+}
+
+.co-title{
+  font-size: 20px;
+  font-family: cursive;
+  margin-top: 25px;
+}
